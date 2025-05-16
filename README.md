@@ -1,2 +1,3 @@
-# Lightweight-Backdoor-Attack-Detection
-Frequency-Domain Trigger Embedding for Lightweight Backdoor Attack Detection in DNNs
+# Frequency-Domain Trigger Embedding for Lightweight Backdoor Attack Detection in DNNs
+## abstract
+Deep neural networks (DNNs) are vulnerable to backdoor attacks, where the model outputs incorrect results upon receiving data with specific triggers. Existing trigger detection methods for backdoor attacks often suffer from implementation complexity and high costs. This paper proposes a novel approach by embedding customized triggers in the frequency domain to detect DNN backdoors. By adding a custom trigger to the frequency domain of an untrustworthy image and observing the model's output, we can distinguish between clean and poisoned images. Our method achieves average poisoned image detection rates of 97.47\%, 99.40\%, and 99.31\% on the Fashion-MNIST, CIFAR-10, and EuroSAT-RGB datasets, respectively. This lightweight and efficient detection strategy offers a practical solution to enhance the security of DNNs against backdoor attacks.
